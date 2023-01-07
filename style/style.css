@@ -10,18 +10,19 @@ header {
 }
 
 /* This is banner */
-.banner{
+.banner {
     text-align: right;
     height: 100px;
     width: 30%;
     padding: 18% 10% 20% 60%;
 }
+
 .banner-title {
     text-align: center;
     font-size: 65px;
     color: #151414;
     padding-bottom: 20px;
-    
+
 }
 
 .banner-discription {
@@ -29,6 +30,7 @@ header {
     font-size: 16px;
     margin-bottom: 30px;
 }
+
 .btn-primary {
     height: 60px;
     border-radius: 64 px;
@@ -38,4 +40,41 @@ header {
     padding: 18px 35px;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* Photo And Some Text */
+.Frist-Section {
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.sec-hede{
+    padding-top: 25%;
+}
+
+.sec-title {
+    display: flex;
+    gap: 8%;
+
+}
+
+.sce-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414; 
+}
+
+.sec-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.sce-fot {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 5px;
 }
