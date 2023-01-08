@@ -117,7 +117,6 @@ header {
 
 /* Gradient Use */
 .gar {
-    position: absolute;
     width: 90%;
     height: 300px;
     left: 8%;
@@ -125,6 +124,8 @@ header {
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
     border-radius: 8px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .main-gar {
@@ -145,4 +146,65 @@ header {
     height: 64px;
     font-weight: 600;
     font-size: 20px;
+}
+
+/* Footer  */
+.main-foot {
+    background-color: black;
+    margin-top: 130px;
+    height: 50%;
+    padding: 12% 15% 18% 15%;
+
+}
+
+.main-div-fot {
+
+    display: flex;
+    color: #F8F8F8;
+
+}
+
+.left-block-fot {
+    padding-right: 50px;
+
+}
+
+.left-block-fot-title {
+    padding-bottom: 10px;
+
+}
+
+.left-block-fot-sub-title {
+    padding-bottom: 10px;
+}
+
+.fot-img {
+    padding: 10px;
+}
+
+.fot-right {
+    row-gap: 50px;
+}
+
+.fot-right-title {
+    margin-bottom: 10%;
+
+}
+
+.fot-right-input {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 325px;
+    height: 64px;
+    border-radius: 10px;
+}
+
+.btn-three {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
 }
